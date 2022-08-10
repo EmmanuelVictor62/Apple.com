@@ -1,0 +1,515 @@
+@font-face{
+    font-family: San-fransisco;
+    src:url("../otf/SFNSDisplay-Regular.otf") format('opentype');
+    src:url("../otf/SFNSDisplay-Medium.otf") format("opentype");
+    src:url("../otf/SFNSDisplay-Bold.otf") format('opentype');
+}
+
+@font-face{
+    font-family: San-fransisco2;
+    src:url("../pro/SF-Pro-Text-Medium.otf");
+    src:url("../pro/SF-Pro-Text-Regular.otf");
+    src:url("../pro/SF-Pro-Text-Bold.otf")
+}
+
+@font-face{
+    font-family: San-fransisco-display;
+    src:url("../pro/SF-Pro-Display-BoldItalic.otf");
+}
+
+@font-face{
+    font-family: San-fransisco-display-regular;
+    src:url("../pro/SF-Pro-Display-Regular.otf")
+}
+
+:root{
+    font-size:1rem;
+}
+
+body{
+    margin:0px;
+}
+
+main{
+    padding-top:83px;
+    font-family: San-fransisco-display-regular;
+}
+
+.donate{
+    height:4.5em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unicef-logo{
+    width:7.6em;
+    height:2em;
+    display:flex;
+    align-items: center;
+}
+
+.unicef-logo img{
+    width:100%;
+}
+
+.donate-link{
+    font-size: 1rem;
+    font-family: San-fransisco-display-regular;
+    text-decoration: none;
+}
+
+.donate-link a{
+    color:rgba(0,102,170,1);
+    margin-left:0.813em;
+    text-decoration: none;
+}
+
+.donate-link a:hover{
+   text-decoration: underline;
+}
+
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(245,245,247);
+    height:fit-content;
+    position: relative;
+    margin-bottom: 0.625em;
+}
+
+.homePage h2{
+    margin-top:1.975em;
+    margin-bottom: 0em;
+}
+
+.homePage h2 a{
+    font-family: San-fransisco-display;
+    font-size:3.5rem;
+    text-decoration: none;
+    color:black;
+}
+
+.homePage h2 a span{
+    color:rgb(202,33,102);
+}
+
+.upsell{
+    margin-top:0.375em;
+    margin-bottom: 0px;
+}
+
+.upsell a{
+    font-family:San-fransisco-display-regular ;
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: rgba(0,0,0,0.8);
+    font-weight:400;
+}
+
+.shop-link{
+    margin-top: 0.8em;
+    font-size: 1.313rem;
+    font-family:San-fransisco-display-regular ;
+    text-decoration: none;
+    color:blue;
+    opacity:0.8;
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}
+
+.fa-chevron-right{
+    font-size: 0.8rem;
+}
+
+.homePageImage{
+    width:23.125em;
+    
+}
+
+.homePageImage img{
+    width:100%;
+}
+
+.page2{
+    background-color: rgb(251, 251, 253);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:fit-content;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+.mac-description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mac-description h2{
+    font-family: San-fransisco-display-regular;
+    font-size:3.5rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.mac-description div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-top: 15px;
+}
+
+.mac-description div a{
+    font-family: San-fransisco-display-regular;
+    text-decoration: none;
+    font-size:1.313rem;
+    color:rgb(0, 102, 204)
+}
+
+.mac-description div a:hover{
+    text-decoration: underline;
+}
+
+.mac-description div a span{
+    margin-left: 7px;
+}
+
+.macbookAirImage{
+    width:31.8em;
+    height:31em;
+    margin-top: 1.875em;
+    margin-bottom: 20px;
+}
+
+.macbookAirImage img{
+    width:100%;
+    height:100%
+}
+
+
+        /* 3rd Page */
+.iPhone13Page{
+    background-color:rgb(251, 251, 253);
+    color:rgb(29, 29, 31);
+    font-family: San-fransisco-display-regular;
+    height:fit-content;
+}
+
+.iPhone13WrapperContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.iPhone13Description h2{
+    font-size: 3.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.iPhone13Description h4{
+    font-size: 1.75rem;
+    margin-top: 6px;
+    font-weight:400;
+    margin-bottom: 0px;
+}
+
+.iPhone13Description div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-top: 13px;
+}
+
+.iPhone13Description div a{
+    font-family: San-fransisco-display-regular;
+    text-decoration: none;
+    font-size:1.313rem;
+    color:rgb(0, 102, 204)
+}
+
+.iPhone13Description div a:hover{
+    text-decoration: underline;
+}
+
+.iPhone13Description div a span{
+    margin-left: 7px;
+}
+
+.iPhone13Image{
+    margin-top: 40px;
+}
+
+
+/* fourthPage--Image Grid */
+
+/* 1st product style Iphone 13 */
+.imageCollection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    width:100%;
+}
+
+.objectWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.productContainer{
+    width:98%;
+    height:calc(100vh-20vh);
+    background-color: rgb(251, 251, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.firstDiv{
+    margin-top: 50px;
+}
+
+.headline{
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    color:rgb(29, 29, 31)
+}
+
+.headlinePresentation{
+    font-size: 21px;
+    margin-top: 4px;
+    font-weight:400;
+    margin-bottom: 0px;
+    text-align: center;
+    color:rgb(29, 29, 31)
+}
+
+.linkWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-top: 13px;
+}
+
+.productLink{
+    font-family: San-fransisco-display-regular;
+    text-decoration: none;
+    font-size:17px;
+    color:rgba(0, 102, 204,.85)
+}
+
+.productLink:hover{
+    text-decoration: underline;
+}
+
+.productLink span{
+    margin-left: 7px;
+}
+
+.productImageDiv{
+    width:380px;
+    box-sizing: border-box;
+} 
+
+.productImage{
+    width:100%;
+    height:100%;
+}
+
+/* 2nd product style */
+
+.macBookProductContainer{
+    width:98%;
+    height:calc(100vh-20vh);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+
+.macBookheadline{
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+    color:rgb(245,245,247);
+}
+
+.macBookheadlinePresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight:400;
+    margin-bottom: 0px;
+    text-align: center;
+    color:rgb(245,245,247);
+}
+
+.macBookheadlinePresentation span{
+    width:50px;
+    margin-top: 0px;
+}
+
+.macBookheadlinePresentation span img{
+    width:100%;
+}
+
+.macBookProductlinkWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-top: 0px;
+}
+
+.macBookProductImage{
+    width:80%;
+    margin-top: 40px;
+    box-sizing: border-box;
+} 
+
+.macBookProductImage img{
+    width:100%;
+    height:100%;
+}
+
+
+/* .iPadAirProduct style */
+.iPadAirProductImage{
+    width:60%;
+    height:350px;
+    box-sizing: border-box;
+} 
+
+.iPadAirProductImage img{
+    width:100%;
+    height:100%;
+}
+
+
+/* iCard Product */
+.iCardProductHeadlinePresentationWrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iCardProductHeadlinePresentation{
+    font-size: 21px;
+    font-weight:400;
+    text-align: center;
+    color:rgb(29, 29, 31);
+    display: flex;
+    align-items:center;
+    width: 60%;
+}
+
+
+.iCardProductDiv{
+    width:450px;
+    box-sizing: border-box;
+    margin-top: 40px;
+} 
+
+.iCardProductImage{
+    width:100%;
+    height:100%;
+}
+
+.iCardlinkWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top: 15px;
+    column-gap: 40px;
+}
+
+/* appleMusic style */
+
+.appleMusicProductContainer{
+        width:98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        row-gap: 330px;
+        background-image: url(/thumbnails/appleMusicImage.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        object-fit: cover;
+        height: 90vh;
+}
+
+.appleMusicheadline{
+    margin: 0px;
+    text-align: center;
+    width:140px
+}
+
+.appleMusicheadline img{
+    width:100%
+}
+
+.appleMusicContentInner{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width:250px;
+   row-gap:15px
+}
+
+.appleMusicContentInner div{
+    text-align: center;
+    font-size:21px;
+    color:white;
+}
+
+.appleMusicContentInner a{
+    color: white;
+    text-decoration: none;
+    font-size:18px;
+    position: relative;
+}
+
+.appleMusicContentInner a:hover{
+    text-decoration: underline;
+}
+
+.appleMusicContentInner a .number{
+    position: absolute;
+    font-size: 11px;
+    left:74px
+}
+
+.appleMusicContentInner a i{
+    font-size: 11px;
+}
