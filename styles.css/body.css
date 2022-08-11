@@ -70,6 +70,10 @@ main{
    text-decoration: underline;
 }
 
+.smallScreenNav{
+    display: none;
+}
+
 
 .homePage{
     display: flex;
@@ -517,13 +521,131 @@ main{
     font-size: 11px;
 }
 
-.testimonial-slider-page{
+
+/* testimonial-slider-page */
+
+/* .image-slider-page{
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 10px;
-    height: 90vh;
+    height: 85vh;
+    
 }
+
+.imageWrapper{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width:100%;
+    height: 85vh;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.imageWrapper img{
+    width:100%;
+    height:100%;
+    margin: 0px 20px;
+} */
+
+.small{
+    display: none;
+}
+
+.imageSliderSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+}
+
+
+.slider{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    overflow:hidden ;
+    position: relative;
+}
+
+.slides{
+    width:800%;
+    height:100%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width:20%;
+    transition: 2s;
+}
+
+.slide img{
+    width:980px;
+    height: 550px;
+    margin:0px 10px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+}
+
+.manual-btn{
+    background-color:lightgray;
+    padding:4px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:1s;
+    z-index: 3;
+}
+
+.manual-btn:not(:last-child){
+    margin-right:15px
+}
+
+.manual-btn:hover{
+    background:gray;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%!important;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -120%;
+}
+
+
+
 
 footer{
     margin-top: 10px;
@@ -669,17 +791,6 @@ footer{
     max-height:0;
 }
 
-.accordion:after {
-    content: '\02795'; 
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-  
-.active:after {
-    content: "\2796";
-}
 
 .panel div{
     padding:5px 5px 5px 0px
