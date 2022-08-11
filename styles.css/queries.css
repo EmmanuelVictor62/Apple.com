@@ -1,0 +1,177 @@
+@media (max-width:780px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    header{
+        display: none;
+    }
+
+    .header1{
+        padding-left: 10px;
+    }
+
+    main{
+        padding-top: 40px !important
+    }
+
+    .donate{
+        flex-direction: column;
+        row-gap: 10px;
+        height:120px;
+        justify-content: center;
+    }
+
+    .donate-link{
+        max-width: 220px;
+    }
+
+    .homePage h2{
+        width:80%;
+    }
+
+    .homePage h2 a{
+        font-size: 33px;
+    }
+
+    .upsell{
+        width:70%;
+    }
+
+    .upsell a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .shop-link{
+        font-size: 19px;
+        color:rgb(0,102,204)
+    }
+
+    /* 2nd page */
+    .page2{
+        flex-direction: column;
+    }
+
+    .mac-description h2{
+        font-size:35px;
+        margin-top: 35px;
+    }
+
+    .mac-description img{
+        width:200px
+    }
+
+    .mac-description div{
+        width:80%
+    }
+
+    .mac-description div a{
+        font-size: 18px;
+    }
+
+    .macbookAirImage{
+        margin-left: calc(8%);
+        width:320px;
+        height:320px;
+    }
+
+    /* 3rd page */
+
+    .iPhone13Description h2{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .iPhone13Description h4{
+        font-size: 20px;
+    }
+
+    .iPhone13Description div a{
+        font-size: 18px;
+    }
+
+    .iPhone13Image{
+        width:150%
+    }
+
+    .iPhone13Image img{
+        width:100%
+    }
+
+    /* fourthPage */
+    .imageCollection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productContainer{
+        height:88vh;
+    }
+
+    .macBookProductContainer{
+        height:88vh
+    }
+
+    .macBookProductImage{
+        width:100%
+    }
+
+    .Series7ProductImageDiv{
+        width:140%;
+        height:95%
+    }
+
+    .Series7ProductImageDiv img{
+        width:100%
+    }
+
+    .iPadAirProductImage{
+        width:100%;
+    }
+
+    .iCardProductHeadlinePresentation{
+        font-size:21px;
+        width:80%
+    }
+
+    .iCardProductDiv{
+        margin-left: 40px;
+    }
+
+    .appleMusicProductContainer{
+        background-size: cover;
+        width:100%;
+        background-position: center;
+    }
+
+    footer{
+        width:100%;
+    }
+
+    .appleFooterContent{
+        width:96%;
+        font-size:14px
+    }
+
+    .appleFooterLink{
+        display: none;
+    }
+
+    .copyrightFooter{
+        display: none;
+    }
+
+    /* accordion footer for mobile */
+    .footerMobile{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        padding-top:30px
+    }
+
+    .panel{
+        display: flex;
+    }
+
+}
