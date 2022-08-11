@@ -16,6 +16,7 @@
         font-size: 17px;
         background-color: #1d1d1f;
         opacity:0.9;
+        z-index: 1;
     }
 
     .smallScreenNav div a{
